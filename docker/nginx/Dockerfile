@@ -1,5 +1,4 @@
-FROM php:7.3-cli
+FROM nginx:latest
 MAINTAINER eryshkov
 
-COPY . /app
 WORKDIR /app
